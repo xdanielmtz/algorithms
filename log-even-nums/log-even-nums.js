@@ -6,3 +6,12 @@ var logEvenNums = function(num) {
         console.log(i);
     }
 };
+
+//OR  =======================================
+var logEvenNums = function(num) {
+    for (var i = 0; i <= num; i++) {
+      if (i % 2 === 0) {
+        console.log(i);
+      }
+    }
+  };
